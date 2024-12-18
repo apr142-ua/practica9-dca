@@ -1,2 +1,1 @@
 Hola desde rama1
-ERROR: Fallo introducido
