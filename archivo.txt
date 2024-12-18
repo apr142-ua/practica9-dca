@@ -1,7 +1,3 @@
 Hola desde rama1
-<<<<<<< HEAD
-ERROR: Fallo introducido
 Cambio después del fallo 1
 Cambio después del fallo 2
-=======
->>>>>>> 8dfab93
