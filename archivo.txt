@@ -1,3 +1,4 @@
 Hola desde rama1
 ERROR: Fallo introducido
 Cambio después del fallo 1
+Cambio después del fallo 2
