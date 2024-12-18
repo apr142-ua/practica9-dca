@@ -20,3 +20,14 @@ GIT obligatorio para la práctica 9 de DCA
 # HOOK:
 He configurado HOOK para que cada vez que se haga un commit ejecute un "test". Si archivo.txt no contiene TODO lanza un error.
 ![image](https://github.com/user-attachments/assets/76850b8c-8db3-4798-8f5d-5e009ee18a00)
+
+.git/hooks/pre-commit
+```bash
+#!/bin/bash
+echo "Ejecutando verificación antes del commit..."
+if ! grep -q "TODO" archivo.txt; then
+    echo "ERROR: Archivo.txt no contiene TODO."
+    exit 1
+fi
+```
+
